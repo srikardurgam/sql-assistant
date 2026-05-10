@@ -284,7 +284,7 @@ EXPLANATION:
 <the explanation here>
 
 Rules:
-- Use only tables and columns that exist in the schema above
+- Use EXACT table names from the schema, wrapped in double quotes (e.g. "Products" not "Product")
 - SQLite syntax only (no TOP, use LIMIT instead)
 - Keep the query readable with proper formatting
 - If the question can't be answered with the available data, say so in the explanation and return a simple valid query as a placeholder
